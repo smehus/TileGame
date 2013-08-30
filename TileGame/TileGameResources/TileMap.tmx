@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tmw_desert_spacing" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="tmw_desert_spacing.png" width="265" height="199"/>
+ </tileset>
+ <tileset firstgid="49" name="meta_tiles" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="meta_tiles.png" width="67" height="34"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Collectable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztlj0PAiEMhlEndVInNbmgLqf+//8ng8OF8FFKS8uF4QlROHifluhNxphpoJbZ+3x13CLcC/aBztVkTX3/cDwjvBTUHcrwwN2J3FrsnVxLP96OT4Qvcw25+6z5XCkPzVmla5L6X/HnarNyupbuLV33gQyj76N+gzas5a5IvfdpQYuzlhwtsH+kc1Dn76mHPdef04Gzh9YbOR16uos5j5ALxo+j1hAHjrWaPTh6QtW7ljWmyozxoPSU9NCUtZWD70PtpPl3his7dQ0l6q7BgQLtHpA+xRywbv5ztnJP6Dtgam+pPs3eSE3O2WbWcORJnRmaw+bj9LKLEXpOat3GsQ2wY3YrrXVufu84BDg26EVJ1loPqvpj8loDv3fYftT45Z6FZod6QOumgZPjHOCiPPeSHxOHJQ4=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="50" height="50">
+  <object name="SpawnPoint" x="43" y="1386"/>
+ </objectgroup>
+ <layer name="Foreground" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt2E0KgCAAhFFv4v1vGS0EMX8qrL6xedCmNjOaRoZgZk+LXwewJfm94lhpLlbqYvYnMbvye2QxHHPHzjOqMmuZl54/URrzHvfgGK0NJav0MLP31PZAxX3EPVjIPa5kIPfYETLMQhnTGZR71P55lVDX6lmtvGo9ZiN3vzJf1B6t86FWXmKP2jnjKCepx91zOlKHnl5Opf1NaU2MlN97xQ459fxmyQbMdhAc
+  </data>
+ </layer>
+ <layer name="Meta" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztmUsOhSAQBLmS3P9wxoWJ4c1Hnord2JUQjWy6wCGCpQgmlqSxEGWVx3jkgcUsdS6EEGIc9dCOz5Cp5Td3DfpQabO2edHz7zCNeYQ8cMhqg4lZPK7AvheZYT+l/ONZmmt7H2GtgYzriDywQPboyYDssYGQ4S5QxvQOmD2sPS8TI2v1iW8FL+9THizfPJH72w4985V5vIV3PuTlRfSwzhmzukFa4/49p7P6EfeT2Tx4HvsVxae3tq3caC5nasXLi+Kycaaes//ySO/aVWZw+CoroNYl2A==
+  </data>
+ </layer>
+</map>
